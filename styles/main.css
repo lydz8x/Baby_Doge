@@ -3,6 +3,9 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.custom-nav {
+  position: absolute;
+}
 .custom-nav .navbar-brand {
   margin-right: 110px;
 }
@@ -33,7 +36,7 @@ body {
   background-image: url(../img/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   bottom: 0;
@@ -52,7 +55,7 @@ body {
 .jumbotron .display-4 {
   color: white;
   font-weight: 200;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 1px 1px #e47737;
   font-size: 40px;
 }
 .jumbotron p {
@@ -64,6 +67,23 @@ body {
   margin-left: 150px;
   width: 400px;
   height: 500px;
+}
+
+.info-panel {
+  box-shadow: 0 3px 15px rgba(102, 100, 100, 0.329);
+  border-radius: 12px;
+  margin-top: -70px;
+  background-color: white;
+  padding: 30px;
+}
+.info-panel .section-panel .border {
+  margin: 5px 20px;
+  border-radius: 15px;
+}
+.info-panel .section-panel p {
+  margin-top: 15px;
+  color: #FDCB6E;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

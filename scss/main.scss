@@ -5,8 +5,9 @@ body {
 }
 
 .custom-nav {
-    .navbar-brand {
+    position: absolute;
 
+    .navbar-brand {
         img {
             width: 160px;
             height: 40px;
@@ -40,7 +41,7 @@ body {
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     bottom: 0;
@@ -61,7 +62,7 @@ body {
     .display-4 {
         color: white;
         font-weight: 200;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        text-shadow: 1px 1px 1px #e47737;
         font-size: 40px;
     }
 
@@ -76,4 +77,27 @@ body {
         width: 400px;
         height: 500px;
     }
+}
+
+.info-panel {
+    box-shadow: 0 3px 15px rgba(102, 100, 100, 0.329);
+    border-radius: 12px;
+    margin-top: -70px;
+    background-color: white;
+    padding: 30px;
+
+    .section-panel {
+
+        .border {
+            margin: 5px 20px;
+            border-radius: 15px;
+        }
+
+        p {
+            margin-top: 15px;
+            color: #FDCB6E;
+            text-align: center;
+        }
+    }
+
 }
