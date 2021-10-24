@@ -70,19 +70,111 @@ body {
 }
 
 .info-panel {
-  box-shadow: 0 3px 15px rgba(102, 100, 100, 0.329);
+  box-shadow: 1px 10px 20px rgba(255, 199, 94, 0.4);
   border-radius: 12px;
   margin-top: -70px;
   background-color: white;
   padding: 30px;
 }
-.info-panel .section-panel .border {
-  margin: 5px 20px;
+.info-panel .section-panel div {
+  border: 3px solid #FDCB6E;
   border-radius: 15px;
+  margin: 5px 20px;
 }
 .info-panel .section-panel p {
   margin-top: 15px;
   color: #FDCB6E;
+  text-align: center;
+}
+
+.tokenomics {
+  margin-top: 100px;
+}
+.tokenomics img {
+  width: 500px;
+  height: 320px;
+}
+.tokenomics .card {
+  width: 25rem;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: #FDCB6E;
+  color: #fff;
+  box-shadow: 1px 10px 20px rgba(255, 199, 94, 0.4);
+}
+.tokenomics .card-1 {
+  margin-left: 120px;
+}
+.tokenomics .card-1 img {
+  width: 70px;
+  height: 60px;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+.tokenomics .card-1 h5 {
+  margin-top: 23px;
+}
+.tokenomics .card-1 p {
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+.tokenomics .card-2 {
+  margin-top: 40px;
+  margin-left: -180px;
+}
+.tokenomics .card-2 img {
+  width: 70px;
+  height: 60px;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+.tokenomics .card-2 h5 {
+  margin-top: 23px;
+}
+.tokenomics .card-2 p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.col-or {
+  color: #FDCB6E;
+}
+
+.roadmap {
+  margin-top: 100px;
+}
+.roadmap .img-road {
+  width: 125px;
+  height: 75px;
+  margin-top: -100px;
+  margin-left: 90%;
+}
+.roadmap .arrow {
+  width: 100%;
+}
+.roadmap .card {
+  width: 15rem;
+  height: 16rem;
+  margin-top: 50px;
+  background-color: #FDCB6E;
+  color: #fff;
+}
+.roadmap .card .card-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.roadmap .card p {
+  font-size: 0.8rem;
+  margin-top: -10px;
+}
+.roadmap .card p img {
+  width: 15px;
+  margin-right: 8px;
+  margin-top: -3px;
+}
+
+.sabar h1 {
+  margin-top: 70px;
   text-align: center;
 }
 
