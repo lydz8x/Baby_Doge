@@ -184,6 +184,9 @@ body {
   right: 0;
   z-index: -1;
 }
+.about .container {
+  padding-top: 50px;
+}
 .about img {
   width: 350px;
   height: 350px;
@@ -202,6 +205,115 @@ body {
 .about .ecommerce .card p {
   margin: 10px 20px;
   color: #FDCB6E;
+}
+
+.partners {
+  margin-top: 80px;
+}
+.partners .col-or {
+  margin-bottom: 80px;
+}
+.partners .card {
+  background-color: #FDCB6E;
+  color: #fff;
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+.partners img {
+  width: 900px;
+  margin: 0 auto;
+}
+.partners .aud-img {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.documentation {
+  margin-top: 80px;
+}
+.documentation .col-or {
+  margin-bottom: 80px;
+}
+.documentation .card {
+  background-color: #FDCB6E;
+  position: relative;
+  height: 200px;
+  border-radius: 15px;
+}
+.documentation .card .img-vid {
+  width: 150px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+.documentation .card .shadow {
+  width: inherit;
+  height: inherit;
+  opacity: 0.8;
+  background-color: black;
+  border-radius: 15px;
+}
+.documentation .card .img-play {
+  width: 50px;
+  margin-left: 48%;
+  margin-top: 75px;
+  opacity: 0.6;
+  position: absolute;
+}
+.documentation .card .img-play:hover {
+  opacity: 1;
+}
+.documentation .vid-2 {
+  text-align: center;
+}
+.documentation .vid-2 .card {
+  padding: 10px;
+}
+.documentation .vid-2 .card-title {
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.documentation .vid-2 .card-title img {
+  width: 90px;
+}
+.documentation .vid-2 p {
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+.documentation .vid-2 p i {
+  margin-left: 2px;
+}
+
+.community {
+  margin-top: 80px;
+}
+.community .col-or {
+  margin-bottom: 80px;
+}
+.community .card {
+  background-color: #FDCB6E;
+  width: 140px;
+  height: 140px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.community .card img {
+  width: 80px;
+}
+
+.footer {
+  margin-top: 80px;
+  background-color: #FDCB6E;
+  height: 50px;
+  border-radius: 10px;
+}
+.footer img {
+  width: 120px;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

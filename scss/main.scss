@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap');
 
+// variable
+$primary: #FDCB6E;
+
 body {
     font-family: 'Nunito', sans-serif;
 }
@@ -34,9 +37,10 @@ body {
     font-size: 1rem;
     font-weight: 900;
     white-space: nowrap;
-    color: #FDCB6E;
+    color: $primary;
 }
 
+// Jumbotron
 .jumbotron {
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
@@ -89,20 +93,21 @@ body {
     .section-panel {
 
         div {
-            border: 3px solid #FDCB6E;
+            border: 3px solid $primary;
             border-radius: 15px;
             margin: 5px 20px;
         }
 
         p {
             margin-top: 15px;
-            color: #FDCB6E;
+            color: $primary;
             text-align: center;
         }
     }
 
 }
 
+// Tokenomics
 .tokenomics {
 
     margin-top: 100px;
@@ -116,7 +121,7 @@ body {
         width: 25rem;
         margin-top: 40px;
         border-radius: 10px;
-        background-color: #FDCB6E;
+        background-color: $primary;
         color: #fff;
         box-shadow: 1px 10px 20px rgba(255, 199, 94, 0.4);
     }
@@ -164,9 +169,10 @@ body {
 }
 
 .col-or {
-    color: #FDCB6E;
+    color: $primary;
 }
 
+// Roadmap
 .roadmap {
 
     margin-top: 100px;
@@ -186,7 +192,7 @@ body {
         width: 15rem;
         height: 16rem;
         margin-top: 50px;
-        background-color: #FDCB6E;
+        background-color: $primary;
         color: #fff;
 
         .card-title {
@@ -207,6 +213,7 @@ body {
     }
 }
 
+// About
 .about {
     background-image: url(../img/bg2.png);
     background-repeat: no-repeat;
@@ -217,6 +224,10 @@ body {
     bottom: 0;
     right: 0;
     z-index: -1;
+
+    .container {
+        padding-top: 50px;
+    }
 
     img {
         width: 350px;
@@ -236,8 +247,141 @@ body {
 
             p {
                 margin: 10px 20px;
-                color: #FDCB6E;
+                color: $primary;
             }
         }
+    }
+}
+
+// Partners
+.partners {
+    margin-top: 80px;
+
+    .col-or {
+        margin-bottom: 80px;
+    }
+
+    .card {
+        background-color: $primary;
+        color: #fff;
+        text-align: center;
+        padding: 20px 40px;
+        border-radius: 15px;
+    }
+
+    img {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .aud-img {
+        width: 550px;
+        margin: 0 auto;
+    }
+}
+
+// Documentation
+.documentation {
+    margin-top: 80px;
+
+    .col-or {
+        margin-bottom: 80px;
+    }
+
+    .card {
+        background-color: $primary;
+        position: relative;
+        height: 200px;
+        border-radius: 15px;
+
+        .img-vid {
+            width: 150px;
+            position: absolute;
+            margin-left: 40%;
+            margin-top: 30px;
+        }
+
+        .shadow {
+            width: inherit;
+            height: inherit;
+            opacity: .8;
+            background-color: black;
+            border-radius: 15px;
+        }
+
+        .img-play {
+            width: 50px;
+            margin-left: 48%;
+            margin-top: 75px;
+            opacity: .6;
+            position: absolute;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    .vid-2 {
+        text-align: center;
+
+        .card {
+            padding: 10px;
+        }
+
+        .card-title {
+            padding: 5px;
+            background-color: #fff;
+            border-radius: 10px;
+
+            img {
+                width: 90px;
+            }
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+            margin-top: 5px;
+
+            i {
+                margin-left: 2px;
+            }
+        }
+    }
+}
+
+// Community
+.community {
+    margin-top: 80px;
+
+    .col-or {
+        margin-bottom: 80px;
+    }
+
+    .card {
+        background-color: $primary;
+        width: 140px;
+        height: 140px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+
+        img {
+            width: 80px;
+        }
+    }
+}
+
+// Footer
+.footer {
+    margin-top: 80px;
+    background-color: $primary;
+    height: 50px;
+    border-radius: 10px;
+
+    img {
+        width: 120px;
+        margin-top: 10px;
     }
 }
